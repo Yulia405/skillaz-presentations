@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1749df">
+  <title>Арнест ЮниРусь × Skillaz | Развитие L&D 2026</title>
+  <link rel="stylesheet" href="theme-v2.css">
+  <link rel="stylesheet" href="refinements-v2.css">
+  <link rel="stylesheet" href="ai-2027.css">
+<link rel="stylesheet" href="review-v4.css">
+  <script defer src="assets/lucide.js"></script>
+  <script defer src="image-sizes.js"></script>
+  <script defer src="deck-v2.js"></script>
+  <script defer src="renderer-v2.js"></script>
+</head>
+<body>
+  <div id="viewport"><main id="deck" aria-label="Презентация для Арнест ЮниРусь"></main></div>
+  <nav class="controls" aria-label="Управление презентацией">
+    <button id="overview-button" title="Содержание" aria-label="Содержание"><i data-lucide="layout-grid"></i></button>
+    <span class="control-divider"></span>
+    <button id="prev" title="Предыдущий слайд" aria-label="Предыдущий слайд"><i data-lucide="arrow-left"></i></button>
+    <span id="counter" aria-live="polite"></span>
+    <button id="next" title="Следующий слайд" aria-label="Следующий слайд"><i data-lucide="arrow-right"></i></button>
+    <span class="control-divider"></span>
+    <button id="notes-button" title="Источники и заметки" aria-label="Источники и заметки"><i data-lucide="notebook-text"></i></button>
+    <button id="fullscreen" title="Полный экран" aria-label="Полный экран"><i data-lucide="maximize"></i></button>
+  </nav>
+  <div class="progress" aria-hidden="true"><span id="progress"></span></div>
+  <dialog id="overview"><header><h2>Содержание</h2><button data-close="overview" aria-label="Закрыть"><i data-lucide="x"></i></button></header><div id="overview-content"></div></dialog>
+  <dialog id="notes"><header><h2>Источники и заметки</h2><button data-close="notes" aria-label="Закрыть"><i data-lucide="x"></i></button></header><div id="notes-content"></div></dialog>
+  <dialog id="lightbox"><header><span id="image-title"></span><div><button id="image-zoom" title="Масштаб 100%" aria-label="Масштаб 100%"><i data-lucide="zoom-in"></i></button><button data-close="lightbox" aria-label="Закрыть изображение"><i data-lucide="x"></i></button></div></header><div id="image-scroll"><img id="large-image" alt=""></div></dialog>
+</body>
+</html>

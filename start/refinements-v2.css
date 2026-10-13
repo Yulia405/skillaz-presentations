@@ -1,0 +1,11 @@
+/* Keep captions outside the screenshot area on evidence-heavy slides. */
+.pair .takeaway{font-size:18px;padding:0;background:none;border-radius:0;margin-top:18px!important;color:#626b82}
+.pair-grid .image-crop{width:min(100%,calc(410px * var(--ratio)));max-height:410px}
+.detail-stack{display:flex;flex-direction:column;gap:22px;min-height:0;flex:1}
+.detail-stack .visual{flex:0 0 auto;display:block}
+.detail-stack .visual>button{height:auto}
+.pair.editor .detail-stack .image-crop{width:100%;max-height:none}
+.pair.editor .pair-grid{gap:50px}
+.feature#goals-q3 .feature-layout{grid-template-columns:410px 1fr;gap:40px}
+.feature#goals-q3 .image-crop{width:min(100%,calc(490px * var(--ratio)));max-height:490px}
+@media(max-width:760px){.feature#goals-q3 .feature-layout{display:flex;gap:26px}.pair .takeaway{font-size:17px;line-height:1.45;margin-top:25px!important}.detail-stack{gap:20px}.pair.editor .pair-grid{gap:35px}}
